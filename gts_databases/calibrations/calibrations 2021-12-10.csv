@@ -1,0 +1,34 @@
+# Calibrations file v1.0
+# Carl Nicholson
+# Date 10/12/2021
+# Change log
+# 23/11/21 After replacing faulty fossil fuels servo & changing external PSU to 12V
+# 07/12/21 Changed max_motor_speed_12V to 30%
+# 10/12/21 Renamed due to database restructuring, no value changes
+wind_power_servo_zero, -51.04 # °
+wind_power_servo_max, 44.36 # °
+wind_forecast_servo_zero, 5.84 # °
+wind_forecast_servo_max, 54.56 # °
+solar_power_servo_zero, -54.00 # °
+solar_power_servo_max, 36.60 # °
+solar_forecast_servo_zero, 4.60 # °
+solar_forecast_servo_max, 55.56 # °
+demand_power_servo_zero, -50.68 # °
+demand_power_servo_max, 43.88 # °
+demand_predicted_servo_zero, -13.16 # °
+demand_predicted_servo_max, 33.48 # °
+fossil_fuels_power_servo_zero, -29.40 # °
+fossil_fuels_power_servo_max, 61.52 # °
+nuclear_power_servo_zero, -59.12 # °
+nuclear_power_servo_max, 36.32 # °
+stall_wind_speed, 15 # km/hr
+max_wind_speed, 80 # km/hr
+stall_motor_speed_12V, 16 # PWM %
+max_motor_speed_12V, 30 # PWM %
+max_sun_intensity, 1000 # W/m2
+max_sunlamp_value, 100 # PWM %
+max_demand, 1 # (dimensionless)
+ff_power_control_pot_zero, 0.05 # volts
+ff_power_control_pot_max, 3.35 # volts
+nuclear_power_control_pot_zero, 0.06 # volts
+nuclear_power_control_pot_max, 3.35 # volts

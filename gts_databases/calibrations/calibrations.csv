@@ -1,0 +1,37 @@
+# Calibrations file v1.0
+# Carl Nicholson
+# Date 11/01/2022
+# Change log
+# 23/11/21 After replacing faulty fossil fuels servo & changing external PSU to 12V
+# 07/12/21 Changed max_motor_speed_12V to 30%
+# 10/12/21 Renamed due to database restructuring, no value changes
+# 11/01/22 Recalibrated wind power gauge due to "anomalies"
+# 22/02/22 Changed naming format to structured for GTS version 2.
+wind.power.servo_zero, -50.16 # °
+wind.power.servo_max, 42.96 # °
+wind.forecast.servo_zero, 5.84 # °
+wind.forecast.servo_max, 54.56 # °
+solar.power.servo_zero, -54.00 # °
+solar.power.servo_max, 36.60 # °
+solar.forecast.servo_zero, 4.60 # °
+solar.forecast.servo_max, 55.56 # °
+demand.power.servo_zero, -50.68 # °
+demand.power.servo_max, 43.88 # °
+demand.forecast.servo_zero, -13.16 # °
+demand.forecast.servo_max, 33.48 # °
+fossil_fuels.power.servo_zero, -29.40 # °
+fossil_fuels.power.servo_max, 61.52 # °
+nuclear.power.servo_zero, -59.12 # °
+nuclear.power.servo_max, 36.32 # °
+wind.speed.stall, 15 # km/hr
+wind.speed.max, 80 # km/hr
+motor.speed.stall.12V, 20 # PWM %
+motor.speed.max.12V, 30 # PWM %
+sun.max_intensity, 1000 # W/m2
+sunlamp.max_value, 100 # PWM %
+temperature.max, 1 # (dimensionless)
+demand.max, 1 # (dimensionless)
+fossil_fuels.power.control_pot.zero, 0.05 # volts
+fossil_fuels.power.control_pot.max, 3.35 # volts
+nuclear.power.control_pot.zero, 0.06 # volts
+nuclear.power.control_pot.max, 3.35 # volts

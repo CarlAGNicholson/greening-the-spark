@@ -1,0 +1,22 @@
+# Scale factors - game mode
+# Carl Nicholson
+# Date 11/02/2022
+# Change log
+# 11/02/22 Changed to hierarchical parameter names
+wind.power,0.25 # GW/km/hr
+solar.power,0.02 # km2 equivalent (GW)
+temperature.temperature,1 # °C
+demand.power,80 # GW
+fossil_fuels.power,40 # GW
+nuclear.power,20 # GW
+fossil_fuels.cost,0.15 # £M/GWh
+fossil_fuels.carbon_footprint,500 # metric tonnes CO2/GWh
+nuclear.cost,0.2 # £M/GWh
+nuclear.carbon_footprint,50 # metric tonnes CO2/GWh
+batteries.power,50 # GW
+hydro.power,20 # GW
+batteries.capacity,120 # GWh
+hydro.capacity,240 # GWh
+grid_frequency,50 # Hz
+standardised_power,TRUE # boolean
+power_gauges.fsd,100 # full scale deflection for power gauges

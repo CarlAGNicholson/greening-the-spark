@@ -1,0 +1,2 @@
+sim_time,wind.power,solar.power,demand.power,fossil_fuels.power,nuclear.power,batteries.power,hydro.power,batteries.level,hydro.level,frequency,fossil_fuels.energy,fossil_fuels.cost,fossil_fuels.CO2,nuclear.energy,nuclear.cost,nuclear.CO2,grid.surplus,wind_forecast,solar_forecast,demand_forecast
+00:00:00,0,0.0,16.97339025638381,17.21212121212121,9.300911854103344,0,0,60.0,60.0,frequency,0.0,0.0,0.0,0.0,0.0,0.0,grid.surplus,22.956936440182297,0.0,0.0029157542448357

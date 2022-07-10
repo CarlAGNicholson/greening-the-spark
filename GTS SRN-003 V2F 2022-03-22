@@ -1,0 +1,41 @@
+Software release note SRN-003
+
+Release: GTS V2
+Status: frozen
+Date: 2022-03-1 
+Author: Carl Nicholson
+
+Description: This is the final release of version 2 of the GTS Mk I software suite, running on Python 3.7.3 on Raspberry Pi 4B-2.
+
+Applicability: GTS Mk I milestone. Can be Used for home demonstrations.
+
+Operating system info:
+No change
+(use "cat /etc/os-release")
+
+Third party libraries:
+No change
+
+Full package listing in packages.txt 
+(use "dpkg-query -f '${binary:Package}\n' -W > packages.txt")
+No change
+
+V3 list of TBDs:
+Completed status (Yes/No/Partial)
+Autostart.
+Visitor and Staff control panels.
+Game results database.
+Error trapping for offline hardware.
+Upgrade forecasting to variable look ahead and averaging.
+Upgrade multiple instances to list based.
+Data structured as dataclasses & instances.
+Full exception handling.
+Turn off representations at shutdown.
+
+
+V4 wish list:
+Malfunctions
+Timestamped telecommands
+Supervisor GUI
+Graphical control panel over internet
+AI control.

@@ -1,0 +1,17 @@
+# Initial conditions file: setting the initialisation mode / initial values of state variables
+# Author: Carl Nicholson
+# Version 2.0
+# Date: 09/03/2022
+# Author Carl Nicholson
+#
+# Change log
+# 27/01/22 Release of V2 for development
+#  
+# Non-renewables (without hardware) and storage models only; other initial conditions are either hardware inputs or derived.
+mode,custom # allowed values: custom, clean start, balanced to be discontinued
+fossil_fuels.power, 0.25 # % full power
+nuclear.power, 0.75 # % full power
+batteries.power, 0 # % full power
+hydro.power, 0 # % full power
+batteries.level, 0.5 # % capacity
+hydro.level, 0.5 # % capacity

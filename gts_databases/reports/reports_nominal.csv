@@ -1,0 +1,28 @@
+# Reports file: nominal setup
+# Author: Carl Nicholson
+# Date: 01/03/2022
+# Format version 1.0
+# 
+# Format: <parameter_name(levels separated by .>","<value> "#" <comment>; "(" <default> ")"
+# comments
+comment.best,excellent
+comment.intermediate,OK
+comment.worst,could do better
+# efficiency parameters
+efficiency.weights.surplus, 0.3
+efficiency.weights.shortfall, 0.5
+efficiency.weights.storage, 0.2
+efficiency.comments.surplus_boundaries.best-intermediate, 3
+efficiency.comments.surplus_boundaries.intermediate-worst, 6
+efficiency.comments.shortfall_boundaries.best-intermediate, 5
+efficiency.comments.shortfall_boundaries.intermediate-worst, 10
+efficiency.comments.storage_boundaries.best-intermediate, 20
+efficiency.comments.storage_boundaries.intermediate-worst, 60
+efficiency.spark_boundaries.red-blue, 80
+efficiency.spark_boundaries.blue-green, 90   
+# eco parameters
+eco.spark_boundaries.red-blue, 40
+eco.spark_boundaries.blue-green, 60
+# economy parameters
+economy.spark_boundaries.red-blue, 40
+economy.spark_boundaries.blue-green, 60

@@ -1,0 +1,19 @@
+# Models file: exhibit setup
+# Author: Carl Nicholson
+# Date: 14/03/2022
+# Format version 2.0
+# Format: <parameter_name(levels separated by .>","<value> "#" <comment>; "(" <default> ")"
+fossil_fuels.ramp_up_time,300 # seconds; (300s, 5 minutes)
+fossil_fuels.ramp_down_time,300 # seconds (300s, 5 minutes)
+nuclear.ramp_up_time,1800 # seconds (1800, half an hour)
+nuclear.ramp_down_time,600 # seconds (600, 10 minutes)
+grid.control_law,default # default; other modes not implemented (possibly superceded by SMS and NRM)
+storage.charging_timescale, 0.25 # (0.25) timescale in hours for charging storage devices
+NRM.mode, optimal # (manual) easiest, optimal, cleanest, cheapest (non-renewables management)
+forecast.mode, changes # either "normal" (as in timeline) or "changes" (differences between successive values)
+timeline.operational.coefficients.DC_level, 0.2
+timeline.operational.coefficients.half_wave, 0.2
+timeline.operational.coefficients.sample_level, 0.03
+timeline.forecast.coefficients.DC_level, 0.15
+timeline.forecast.coefficients.half_wave, 0.15
+timeline.forecast.coefficients.sample_level, 0.03

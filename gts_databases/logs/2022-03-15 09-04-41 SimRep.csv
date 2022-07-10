@@ -1,0 +1,25 @@
+Simulation report
+Time stamp,2022-03-15 09:04:41
+Configuration_file,exhibit.cfg
+Simulation start time,2022-03-15 09:04:45
+Simulation end time,2022-03-16 09:04:45
+Simulation run time,1 day, 0:00:00
+Difficulty,2
+Demand,1149.03
+Wind,117.67
+Solar,180.02
+Fossil fuels,530.86
+Nuclear,291.89
+Fossil fuels utilisation,55.30
+Nuclear utilisation %,60.81
+Surplus,0.00,excellent
+Shortfall,0.01,excellent
+Initial stored,180.00
+Final stored,151.55
+Storage discrepancy,28.45,excellent
+Efficiency score,98.00,excellent
+Total CO2 (tonnes),280023.22
+Total cost (£M),138.01
+Average CO2 (tonnes/GWh),243.70,35,could do better
+Average cost (£M/GWh),0.12,65,excellent
+Final rating,efficiency spark,*green* ,eco spark,!red! ,economy spark,*green* 

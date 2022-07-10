@@ -1,0 +1,20 @@
+# Parameter file: test mode
+# Author: Carl Nicholson
+# Format version 1.0
+# Date: 10/03/2022
+# Change log
+# 10/12/21 Renamed due to database restructuring
+# 10/02/22 Added AUTO_SUPERVISOR defaults
+# Format: <name> <comma> <value> as follows, defaults in brackets:
+TIME_FACTOR, 1 # (60) [integer] amount by which the sim is speeded up relative to real time 
+FRAME_RATE, 1 # (max 6 Hz with hardware) [integer] iteration time for main sim loop
+SNAPSHOT_INTERVAL, 1800 # (600)time in seconds of sim time between state vector dumps; values <= 0 switch it off
+NUM_HD_CUM_PWR_DISP, average # "average" or "total" shown in control panel numeric header
+REAL_TIME, False # whether the frame rate is synched to real time or not
+MAX_DIFFICULTY, 4 # determines volatility of static models & scale of storage elements
+AUTO_SUPERVISOR, True # False
+AUTO_SUPERVISOR_DIFFICULTY, 2
+AUTO_SUPERVISOR_START_TIME_OPTION, 0 # beginning = 0, now = 1, any time = 0
+AUTO_SUPERVISOR_RUN_TIME_DAYS, 1
+AUTO_SUPERVISOR_RUN_TIME_HOURS, 0
+AUTO_SUPERVISOR_RUN_TIME_MINUTES, 0

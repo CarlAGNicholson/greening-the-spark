@@ -1,0 +1,8 @@
+# Logfile settings file: nominal setup
+# Author: Carl Nicholson
+# Date 07/02/2022
+# Version 2
+# Change log
+# 07/02/2022 File creation for GTS V2 
+logs_level_screen, Warning
+logs_level_file, Warning
